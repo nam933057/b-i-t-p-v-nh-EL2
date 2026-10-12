@@ -15,7 +15,7 @@ data = {
 df = pd.DataFrame(data)
 
 # Tính tổng kết và xếp loại[span_11](start_span)[span_11](end_span)
-df['Tong_ket'] = 0.2 * df['Chuyen_can'] + 0.3 * df['Giua_ky'] + 0.5 * df['Cuoi_ky']
+df['Tong_ket'] = 0.2 * df['Chuyen_can'] + 0.3 * df['Giua_ky'] + 0.5 * df['Cuoi_ky'].round(2)
 
 def xep_loai(diem):
     if diem >= 8.5: return 'Giỏi'
