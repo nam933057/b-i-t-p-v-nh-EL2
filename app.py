@@ -8,9 +8,9 @@ st.title("QUẢN LÝ ĐIỂM SINH VIÊN")
 # Dữ liệu mẫu[span_10](start_span)[span_10](end_span)
 data = {
     'Ho_va_ten': ['Ngô Hoài An', 'Cao Nguyên Khang', 'Phạm Khả Quân', 'Phạm Anh Quân', 'Lê Việt Hoàng', 'Lê Quân', 'Nguyễn Quý', 'Nguyễn Trung Hậu', 'Nguyễn Minh', 'Trần Văn An'],
-    'Chuyen_can': [8.0, 9.0, 7.0, 9.5, 7.5, 6.0, 9.0, 7.0, 7.5, 9.5]
+    'Chuyen_can': [8.0, 9.0, 7.0, 9.5, 7.5, 6.0, 9.0, 7.0, 7.5, 9.5],
     'Giua_ky': [7.5, 8.0, 6.5, 9.0, 7.0, 6.0, 8.5, 7.0, 7.5, 9.0],
-    'Cuoi_ky': [8.0, 8.5, 6.5, 9.0, 7.5, 6.0, 8.5, 7.5, 7.5, 9.0]
+    'Cuoi_ky': [8.0, 8.5, 6.5, 9.0, 7.5, 6.0, 8.5, 7.5, 7.5, 9.0],
 }
 df = pd.DataFrame(data)
 
